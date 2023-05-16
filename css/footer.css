@@ -1,0 +1,36 @@
+.footer {
+  padding: 1.5rem 2rem;
+  background-color: var(--green-100);
+}
+
+.footer-container {
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: var(--gray-700);
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+
+.contact__item-svg {
+  transition: all ease-in-out .5s;
+}
+
+.contact-list__item:hover .linkedin {
+  fill: #0077b5;
+}
+
+.contact-list__item:hover .gmail {
+  fill: #bb001b;
+}
+
+.contact-list__item:hover .github {
+  fill: #171515;
+}

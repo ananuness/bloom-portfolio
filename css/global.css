@@ -1,0 +1,82 @@
+:root {
+  --white: #FFFFFF;
+
+  --gray-50: #FAFAFA;
+  --gray-700: #444444;
+
+  --purple-100: #f0e7f2;
+  --purple-200: #d8b5df;
+  --purple-400: #b077bb;
+
+  --pink-100:  	#ffebeb;
+  --green-100: #deeedd;
+  --blue-100: #d8f2f8;
+  --yellow-100: #fffbbd;
+  --orange-100: #fae6d1;
+
+  --font-text: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-text);
+}
+
+body {
+  background-color: var(--gray-50);
+}
+
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+  color: var(--gray-700);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.section__heading {
+  margin-bottom: 1rem;
+}
+
+.section__heading::after {
+  content: '〰〰〰';
+  display: block;
+  position: relative;
+  top: -16px;
+  text-align: center;
+  color: var(--purple-400);
+}
+
+.pink {
+  background-color: var(--pink-100);
+}
+
+.purple {
+  background-color: var(--purple-100);
+}
+
+.blue {
+  background-color: var(--blue-100);
+}
+
+.green {
+  background-color: var(--green-100);
+}
+
+.yellow {
+  background-color: var(--yellow-100);
+}
+
+.orange {
+  background-color: var(--orange-100);
+}
+
+.mention {
+  color: var(--purple-400);
+  font-weight: 500;
+}

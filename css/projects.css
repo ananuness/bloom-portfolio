@@ -12,30 +12,91 @@
 }
 
 .project__card {
-  height: 341px;
+  padding: 1.5rem 1.5rem;
   border-radius: 8px;
-  border: 1px solid rgba(68, 68, 68, .2);
+  border: 1px solid rgba(0, 0, 0, .15);
   overflow: hidden;
   color: var(--gray-700);
   transition: all ease-in-out .5s;
+  cursor: pointer;
 }
 
 .project__card:hover {
-  box-shadow: 0 0 25px 5px rgba(0, 0, 0, .1);
+  border-color: var(--purple-200);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 30px -15px rgba(0, 0, 0, .1);
 }
 
-.project__img {
-  width: 320px;
-  height: 170px;
+.card__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__badges {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+}
+
+.badges__item {
+  padding: .25rem .5rem;
+  border-radius: 16px;
+  color: var(--gray-600);
+  background-color: var(--gray-100);
+  transition: all ease-in-out .5s;
+}
+
+.project__card:hover .badges__item--orange {
+  color: var(--orange-500);
+  background-color: var(--orange-100);
+}
+
+.project__card:hover .badges__item--blue {
+  color: var(--blue-500);
+  background-color: var(--blue-100);
+}
+
+.project__card:hover .badges__item--yellow {
+  color: var(--yellow-600);
+  background-color: var(--yellow-100);
+}
+
+.project__card:hover .badges__item--pink {
+  color: var(--pink-500);
+  background-color: var(--pink-100);
+}
+
+.project__card:hover .badges__item--purple {
+  color: var(--purple-400);
+  background-color: var(--purple-100);
+}
+
+.project__link:hover .github {
+  stroke: var(--purple-400);
 }
 
 .project__title {
-  margin: .5rem 1rem;
+  width: fit-content;
+  margin: .75rem 0 .5rem;
   font-size: 1rem;
+  letter-spacing: .5px;
+  transition: all ease-in-out .5s;
+  box-shadow: inset 0 0 0 0 var(--pink-100);
+}
+
+.project__card:hover .project__title--purple {
+  box-shadow: inset 140px 0 0 0 var(--purple-100);
+}
+
+.project__card:hover .project__title--yellow {
+  box-shadow: inset 140px 0 0 0 var(--yellow-100);
+}
+
+.project__card:hover .project__title--pink {
+  box-shadow: inset 140px 0 0 0 var(--pink-100);
 }
 
 .project__description {
   max-width: 320px;
-  padding: 0 1rem 1rem;
   font-size: 14px;
 }

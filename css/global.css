@@ -1,18 +1,29 @@
 :root {
-  --white: #FFFFFF;
+  --white: #ffffff;
 
-  --gray-50: #FAFAFA;
+  --gray-50: #fafafa;
+  --gray-100: #eeeeee;
+  --gray-600: #8b8b8b;
   --gray-700: #444444;
 
   --purple-100: #f0e7f2;
   --purple-200: #d8b5df;
   --purple-400: #b077bb;
 
-  --pink-100:  	#ffebeb;
+  --pink-100: #ffebeb;
+  --pink-500: #d66f6f;
+
   --green-100: #deeedd;
+  --green-500: #79bb74;
+
   --blue-100: #d8f2f8;
+  --blue-500: #60a3b4;
+
   --yellow-100: #fffbbd;
+  --yellow-600: #bdb21f;
+  
   --orange-100: #fae6d1;
+  --orange-500: #d48b3d;
 
   --font-text: 'Poppins', sans-serif;
 }
@@ -81,4 +92,8 @@ a {
 
 .mention:hover {
   box-shadow: inset 160px 0 0 0 var(--pink-100);
+}
+
+.svg-icon {
+  transition: all ease-in-out .3s;
 }

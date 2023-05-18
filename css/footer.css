@@ -19,10 +19,6 @@
   list-style-type: none;
 }
 
-.contact__item-svg {
-  transition: all ease-in-out .3s;
-}
-
 .contact-list__item:hover .linkedin,
 .contact-list__item:hover .github {
   stroke: var(--purple-400);

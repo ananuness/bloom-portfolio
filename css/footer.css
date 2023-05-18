@@ -20,17 +20,14 @@
 }
 
 .contact__item-svg {
-  transition: all ease-in-out .5s;
+  transition: all ease-in-out .3s;
 }
 
-.contact-list__item:hover .linkedin {
-  fill: #0077b5;
+.contact-list__item:hover .linkedin,
+.contact-list__item:hover .github {
+  stroke: var(--purple-400);
 }
 
 .contact-list__item:hover .gmail {
-  fill: #bb001b;
-}
-
-.contact-list__item:hover .github {
-  fill: #171515;
+  fill: var(--purple-400);
 }

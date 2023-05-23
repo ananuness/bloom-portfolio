@@ -1,5 +1,4 @@
 .header {
-  padding: 1.5rem 2rem;
   background-color: var(--gray-50);
 }
 
@@ -60,3 +59,21 @@
 .item__green:hover {
   box-shadow: inset 110px 0 0 0 var(--green-100);
 } 
+
+@media screen and (min-width: 320px) {
+  .header {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .header {
+    padding: 1.5rem 1.5rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .header {
+    padding: 1.5rem 2rem;
+  }
+}

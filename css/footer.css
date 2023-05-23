@@ -27,3 +27,24 @@
 .contact-list__item:hover .gmail {
   fill: var(--purple-400);
 }
+
+@media screen and (min-width: 320px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-copyright {
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .footer-container {
+    flex-direction: row;
+  }
+
+  .footer-copyright {
+    margin-top: 0;
+  }
+}

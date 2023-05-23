@@ -35,6 +35,11 @@
   font-family: var(--font-text);
 }
 
+::selection {
+  color: var(--gray-700);
+  background-color: var(--purple-100);
+}
+
 body {
   background-color: var(--gray-50);
 }

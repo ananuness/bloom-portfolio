@@ -89,6 +89,8 @@ a {
 }
 
 .mention {
+  width: fit-content;
+  display: inline-block;
   color: var(--gray-700);
   font-weight: 500;
   box-shadow: inset 0 0 0 0 var(--pink-100);
